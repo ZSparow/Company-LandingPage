@@ -3,3 +3,10 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+body {
+    font-family: 'Cairo',
+        sans-serif;
+    @apply bg-gray-100;
+}

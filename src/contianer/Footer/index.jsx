@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <div>
-            footer
-        </div>
+        <footer className="text-center p-2">
+            © Wave IT Solutions 2020 .
+        </footer>
     )
 }

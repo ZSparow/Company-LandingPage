@@ -16700,6 +16700,14 @@ video {
   transition-delay: 1000ms;
 }
 
+body {
+  font-family: 'Cairo',
+        sans-serif;
+  --bg-opacity: 1;
+  background-color: #f7fafc;
+  background-color: rgba(247, 250, 252, var(--bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
