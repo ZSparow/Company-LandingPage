@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Home, Footer, Navbar, About, Services, Contact } from './contianer'
 function App() {
   return (
-    <main>
+    <main className="container mx-auto">
       <Router>
         <Navbar />
         <Switch>

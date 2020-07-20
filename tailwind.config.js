@@ -29,6 +29,10 @@ module.exports = {
         800: '#2d3748',
         900: '#1a202c',
       },
+      brand: {
+        primary: "#182F58",
+        secondary: "#3CA7DB"
+      },
       red: {
         100: '#fff5f5',
         200: '#fed7d7',
