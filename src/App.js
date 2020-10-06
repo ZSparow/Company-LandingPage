@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Home, Footer, Navbar, About, Services, Contact } from './contianer'
 function App() {
   return (
-    <main className="container mx-auto">
+    <main style={{backgroundColor:"#f0f0f0"}}>
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />

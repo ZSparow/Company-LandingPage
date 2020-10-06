@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Hero = () => {
     return (
-        <img className="w-full md:w-3/4" src="/img/homePage.svg" alt="home" />
+        <img className="w-full" src="/img/UC.jpg" alt="home" />
     )
 }
